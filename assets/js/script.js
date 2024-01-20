@@ -41,14 +41,14 @@ function generatePassword() {
     alert("Must select at least one character type.");
     return "Try Again!";
   }
-  // Creates a new master character set object with the results of the prompt sequence that contains all the selected character sets and excludes the unselected character sets
+  // Creates a new selectedChars character set object with the results of the prompt sequence that contains all the selected character sets and excludes the unselected character sets
   var selectedChars = "";
   if (includeUpperChars) selectedChars += uppercaseChars;
   if (includeLowerChars) selectedChars += lowercaseChars;
   if (includeNumericChars) selectedChars += numericChars;
   if (includeSpecialChars) selectedChars += specialChars;
 
-// Creates a new object, made from looping over the number of characters selected for in the paswordLength object, then going to a random index in the 
+// Creates a newPassword object using selected character sets
   var newPassword = "";
   for (var i = 0; i < passwordLength; i++) {
     var randomNumber = Math.floor(Math.random() * selectedChars.length);

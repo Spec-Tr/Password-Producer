@@ -1,5 +1,7 @@
 # Password-Producer
 
+![Screenshot of the app as viewed in a desktop browser](assets/images/passwordGenScreenCap.png)
+
 ## Description
 
 A password generator with options to select for length between 8 and 128 characters with options to include uppercase, lowercase, numeric and special characters. Demonstrates practical debugging experience and javascript knowledge; query selector, event listener, for loops, conditional statements, parseInt(), inNaN(), Math.floor(), Math.random(), charAt(), etc. 
@@ -11,7 +13,7 @@ https://spec-tr.github.io/Password-Producer/
 
 ## Technologies
 
-## JavaScript
+### JavaScript
 ### HTML
 ### CSS
 
