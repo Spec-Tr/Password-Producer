@@ -4,7 +4,7 @@
 
 ## Description
 
-A password generator with options to select for length between 8 and 128 characters with options to include uppercase, lowercase, numeric and special characters. Demonstrates practical debugging experience and javascript knowledge; query selector, event listener, for loops, conditional statements, parseInt(), inNaN(), Math.floor(), Math.random(), charAt(), etc. 
+A password generator with options to select for length between 8 and 128 characters with options to include uppercase, lowercase, numeric and special characters. Demonstrates practical debugging experience and javascript knowledge; query selector, event listener, for loops, conditional statements, parseInt(), isNaN(), Math.floor(), Math.random(), charAt(), etc. 
 
 ## Link to Deployed Website
 
